@@ -1,188 +1,241 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-* {
-    padding: 0;
-    margin: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0 auto;
-}
-
-.details__content-wrap {
-    max-width: 800px;
-    width: 100%;
-    margin: 0 auto;
-    padding-bottom: 75px;
-    overflow: hidden;
-}
-
-.poco-x3__header-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    color: #fff !important;
-    background-image: url("images/poco-x3__header-image.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 90px;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.poco-x3__title {
-    font-size: 42px;
-    font-weight: bold;
-    line-height: 1.2;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 10px;
-}
-
-.poco-x3__section-subtitle {
-    font-size: 26px;
-    font-weight: bold;
-    line-height: 1.3;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 20px;
-}
-
-.x3_clr_yellow {
-    color: #FBC702 !important;
-}
-
-.poco-x3__section-title {
-    font-size: 32px;
-    font-weight: bold;
-    line-height: 1.3;
-    margin: 0;
-    margin-bottom: 25px;
-    padding: 0;
-}
-
-.x3-text_centered {
-    text-align: center !important;
-    margin-bottom: 35px;
-}
-
-.poco-x3__description-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    padding-left: 14px;
-}
-
-.poco-x3__description-list-item {
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 1.4;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.poco-x3__description-list-item::before {
-    font-size: 20px;
-    display: inline-block;
-    width: 14px;
-    content: "•";
-    color: #FBC702 !important;
-    margin-left: -14px;
-}
-
-.poco-x3__four-adv-columns-section {
-    padding: 140px 20px;
-    background-color: #010101;
-    color: #fff !important;
-}
-
-.poco-x3__four-adv-col-wrapper {
-    display: -ms-grid;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 30px;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0;
-    list-style-type: none;
-}
-
-.poco-x3__for-adv-col-item {
-    padding: 10px;
-    margin: 0;
-    padding-left: 40px;
-    padding-top: 70px;
-    box-sizing: border-box;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 1.4;
-    background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.x3_ic_type_1 {
-    background-image: url("./images/poco-x3__icon-img-2.png");
-}
-
-.x3_ic_type_2 {
-    background-image: url("./images/poco-x3__icon-img-1.png");
-}
-
-.x3_ic_type_3 {
-    background-image: url("./images/poco-x3__icon-img-3.png");
-}
-
-.poco-x3__span {
-    font-size: 18px;
-    font-weight: bold;
-    color: #FBC702 !important;
-    margin-bottom: 15px;
-}
-
-.poco-x3__single-image-section {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 0;
-    width: 100%;
-}
-
-.poco-x3__regular-image {
-    width: 100%;
-    height: auto;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: center;
-    object-position: center;
-}
-
-.poco-x3__regular-section {
-    max-width: 800px;
-    width: 100%;
-    height: auto;
-    padding: 90px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-    color: #fff !important;
-    background-color: #010101;
-    box-sizing: border-box;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    .body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0 auto;
+    }
+    
+    .details__content-wrap {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 75px;
+        overflow: hidden;
+    }
+    
+    .poco-x3__header-section {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        color: #fff !important;
+        background-image: url("images/poco-x3__header-image.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 90px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .poco-x3__title {
+        font-size: 42px;
+        font-weight: bold;
+        line-height: 1.2;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    
+    .poco-x3__section-subtitle {
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 1.3;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    
+    .x3_clr_yellow {
+        color: #FBC702 !important;
+    }
+    
+    .poco-x3__section-title {
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 1.3;
+        margin: 0;
+        margin-bottom: 25px;
+        padding: 0;
+    }
+    
+    .x3-text_centered {
+        text-align: center !important;
+        margin-bottom: 35px;
+    }
+    
+    .poco-x3__description-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        padding-left: 14px;
+    }
+    
+    .poco-x3__description-list-item {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.4;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    .poco-x3__description-list-item::before {
+        font-size: 20px;
+        display: inline-block;
+        width: 14px;
+        content: "•";
+        color: #FBC702 !important;
+        margin-left: -14px;
+    }
+    
+    .poco-x3__three-adv-columns-section {
+        padding: 140px 20px;
+        background-color: #010101;
+        color: #fff !important;
+    }
+    
+    .poco-x3__three-adv-col-wrapper {
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 30px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    .poco-x3__three-adv-col-item {
+        padding: 10px;
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.4;
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: left !important;
+    }
+    
+    .poco-x3__span {
+        font-size: 18px;
+        font-weight: bold;
+        color: #FBC702 !important;
+        margin-bottom: 15px;
+    }
+    
+    .poco-x3__single-image-section {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 0;
+        width: 100%;
+    }
+    
+    .poco-x3__regular-image {
+        width: 100%;
+        height: auto;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center;
+    }
+    
+    .poco-x3__regular-section {
+        max-width: 800px;
+        width: 100%;
+        height: auto;
+        padding: 90px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        color: #fff !important;
+        background-color: #010101;
+        box-sizing: border-box;
+    }
+    
+    .poco-x3__four-adv-columns-section {
+        padding: 50px 5px;
+        background-color: #010101;
+        color: #fff !important;
+    }
+    
+    .poco-x3__four-adv-col-wrapper {
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 5px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-align: center !important;
+    }
+    
+    .poco-x3__four-adv-col-item {
+        padding: 70px 10px;
+        padding-top: 90px;
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 1.4;
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: center !important;
+    }
+    
+    .x3_ic_type_1 {
+        background-image: url("./images/poco-x3__col-icon-1.png");
+    }
+    
+    .x3_ic_type_2 {
+        background-image: url("./images/poco-x3__col-icon-2.png");
+    }
+    
+    .x3_ic_type_3 {
+        background-image: url("./images/poco-x3__col-icon-3.png");
+    }
+    
+    .x3_ic_type_4 {
+        background-image: url("./images/poco-x3__col-icon-4.png");
+    }
+    
+    @media (max-width: 480px) {
+        .poco-x3__section-title {
+            font-size: 20px;
+        }
+        .poco-x3__section-subtitle {
+            font-size: 18px;
+        }
+        .poco-x3__section-text {
+            font-size: 15px;
+        }
+        .poco-x3__header-section {
+            padding: 30px;
+        }
+        .poco-x3__regular-section {
+            padding: 30px;
+        }
+    }
